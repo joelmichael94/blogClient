@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 
 function AddPost({ getPosts }) {
     const navigate = useNavigate();
